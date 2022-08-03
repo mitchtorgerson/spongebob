@@ -6,6 +6,7 @@ import './App.css';
 function App() {
     const [selectedUserId, setSelectedUserId] = useState();
 
+    // TODO: This is a dumb way to pass data. setup context instead of saving the userid here
     const handleSetUser = (userId) => {
         setSelectedUserId(userId);
     };
