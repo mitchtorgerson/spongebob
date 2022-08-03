@@ -1,0 +1,17 @@
+.transaction-container {
+  background: #ffffff;
+  width: 1100px;
+}
+
+.transaction-row {
+   display: flex;
+}
+
+.transaction-header {
+  flex: 1;
+  font-weight: bold;
+}
+
+.transaction-item {
+  flex: 1;
+}
